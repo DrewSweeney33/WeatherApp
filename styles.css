@@ -1,0 +1,80 @@
+body
+{
+   background-color: rgb(80, 75, 75);
+}
+
+.search
+{
+    display: flex;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input.search-bar 
+{
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #2925252b;
+    color: black;
+    font-family: inherit;
+    font-size: 105%;
+    font-weight: bold;
+    width: 20%;
+}
+
+.locationText
+{
+    font-size: 5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 0, 155);
+}
+
+button 
+{
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 44px;
+    width: 42px;
+    outline: none;
+    background: #4b44442b;
+    color: black;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.centerit
+{
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.blacktext
+{
+    color: rgb(0, 0, 0);
+}
+
+.infoText
+{
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.whitebox
+{
+    width: 600px;
+    height: 200px;
+    display: block;
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(0, 0, 155);
+}
